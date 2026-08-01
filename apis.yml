@@ -1,8 +1,26 @@
 aid: unnatural-products
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unnatural-products.png
 name: Unnatural Products
-description: Unnatural Products is a company surfaced as a portfolio company of wing-venture-capital and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Unnatural Products (UNP) is a Santa Cruz, California biotechnology company
+  founded in 2017 by UC Santa Cruz alumni Cameron Pye and Joshua Schwochert. The company
+  operates a drug-discovery platform for synthetic macrocyclic peptides, combining data
+  science, machine learning, and parallel chemical synthesis to rapidly optimize potency,
+  selectivity, and passive membrane permeability against traditionally "undruggable" targets
+  that sit between small molecules and biologics. UNP works primarily through pharmaceutical
+  research collaborations, including partnerships with Novartis, Merck, Argenx, and BridgeBio,
+  and has raised approximately $38.4M. Surfaced as a portfolio company of Wing Venture Capital,
+  it exposes no public API or developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/unnatural-products/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Peptides
+- Pharmaceuticals
+- Machine Learning
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.unnaturalproducts.com/
+- type: About
+  url: https://www.unnaturalproducts.com/about
+- type: Careers
+  url: https://www.unnaturalproducts.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/unnatural-products
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
